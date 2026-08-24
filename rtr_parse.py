@@ -12,7 +12,7 @@ Dependencies (macOS only):
     pip install supernotelib pillow ocrmac mlx-lm
 
 Usage:
-    python parse_hybrid_record.py context_001.note
+    python rtr_parse.py context_001.note
 """
 
 import argparse
