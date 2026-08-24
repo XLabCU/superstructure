@@ -194,7 +194,7 @@ def refine_with_mlx(rough_data: dict, rtr_text: str, model_id: str) -> dict:
 def main():
     if len(sys.argv) == 1:
         print("\n=== Supernote Hybrid Parser (ocrmac + mlx-lm) ===")
-        print("Usage: python parse_hybrid_record.py <path_to_your_note.note>")
+        print("Usage: python rtr_parse.py <path_to_your_note.note>")
         sys.exit(0)
 
     parser = argparse.ArgumentParser(description="Parse Supernote RTR notes using ocrmac and mlx-lm.")
